@@ -44,7 +44,7 @@ const LoginController = async (args)=>{
         if(validation === 'ok'){
           if(ENV==='dev') console.log('All Fields are completed');
           let mUser={email:this.user.email,password:this.user.password}
-          let response= await client?.auth().login(mUser).val()
+          let response= await client?.auth?.auth().login(mUser).val()
           if(response?.error){
             let authError=response?.error?.auth
             switch (authError?.code) {

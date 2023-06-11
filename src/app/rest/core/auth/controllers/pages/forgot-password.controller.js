@@ -31,7 +31,7 @@ const ForgotPasswordController = (userModel, authService) =>{
                 let mUser ={
                     email:this.user.email
                 }
-                this.res=this.auth.sendResetPasswordEmail(mUser)
+                this.res=this?.auth?.auth()?.sendResetPasswordEmail(mUser)
 
                 if(this.res.code === 404){
                     console.log('Error Code From AuthController')

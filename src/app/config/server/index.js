@@ -1,19 +1,21 @@
 let ServerConfig={
   //Configure the offline DB
-  OFFLINE_DB_NAME:'swyger_database',
-
+  OFFLINE_DB_NAME:{
+    AUTH:'swyger_auth',
+    DATABASE:'swyger_database',
+    STORAGE:'swyger_storage'
+  },
+  ENV:ENV,
   //Configure the server
   HOST_SERVER:{
     AUTH:'http://localhost:4100',
     DATABASE:'http://localhost:4400',
     STORAGE:'http://localhost:4500',
-    MAIL:'http://localhost:4200',
   },
   API_VERSION:{
     AUTH:'/api/v1',
     DATABASE:'/api/v1',
     STORAGE:'/api/v1',
-    MAIL:'/api/v1',
   },
   AUTO_REFRESH_TOKEN_TIMEOUT:1500000, //in millisecond= 25 minutes
   // A Unique Api key for all your servers

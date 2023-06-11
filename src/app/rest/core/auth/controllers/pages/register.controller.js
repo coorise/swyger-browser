@@ -54,7 +54,7 @@ const RegisterController = async (args)=>{
             email:this.user.email,
             password:this.user.password
           }
-          let response=await client?.auth().register(mUser).val()
+          let response=await client?.auth?.auth().register(mUser).val()
           if(response?.error){
             let authError=response?.error?.auth
             switch (authError?.code) {
