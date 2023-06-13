@@ -26,29 +26,7 @@ export default class AuthController extends BaseController{
 
    register=async(req)=> await RegisterController({req,controller:this})
 
-   forgotPassword=async(req)=>{
-      let meta={
-        title:"Forgot Password? | Agglomy !",
-        meta: [
-          {
-            name: "child value",
-            content: "child content value"
-          },
-        ]
-        // name:"Name"
-      }
-      //console.log('path : ', req.path)
-      //console.log('query : ', req.query)
-      //console.log('param : ', req.param)
-     const views={
-       // that is a way to import your template
-       // the let is the name and right side is the path
-       //so on your parent template, use  eg: <index/>
-       index:'pages/forgot-password.html',
-     }
-      const data = ForgotPasswordController(this.authModel,this.client)
-      await this.render({data, meta,views})
-   }
+   forgotPassword=async(req)=>await ForgotPasswordController({req,controller:this})
 
   verifyEmailCode=async(req)=>await VerifyEmailCodeController({req,controller:this})
 

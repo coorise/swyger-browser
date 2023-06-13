@@ -2,7 +2,7 @@
 import Router from "./resources/vendors/spa-router-better/es/spa-router.js";
 import IndexModule from "./app/rest/index.js";
 import {ServerConfig} from "./app/config/index.js";
-import SwygerClient from '@swyger/client'
+import SwygerClient from '@swyger/client';
 
 //console.log('ListModule')
 //console.log(ApiModule)
