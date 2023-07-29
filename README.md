@@ -53,6 +53,19 @@ Please keep the following **Folder Structure** so that `Vite JS` will build it w
 Note: You can modify everything according to your need from scratch (dir,path,files...ect), just be careful of
 what you are doing when modifying those files :)
 
+## Swyger Client API
+We also have integrated swyger client api,<br>
+check ``src/app/config/server/index.js`` <br>
+check ``src/route.js`` and to use the api client, check some examples  <br>
+on: ``src/app/rest/api/name_of-api/controllers/pages/name_of_controller``<br>
+or
+on: ``src/app/rest/core/name_of-api/controllers/pages/name_of_controller`` : <br>
+```
+const {req,controller}=args;
+const client=controller.client
+let response= await client?.auth?.auth().login({email,password}).val()
+```
+
 ## Important:
 for your static and dynamic import like (**href,src, import,...etc**)
 
@@ -175,17 +188,6 @@ Note: you can switch dynamically by extending the <span style="color: yellow;fon
 
 from: **`src/app/helpers/common/controllers/base.controller.js`**
 
-## Swyger Client API
-We also have integrated swyger client api,<br>
-check ``src/route.js`` and to use the api client, check some examples  <br>
-on: ``src/app/rest/api/name_of-api/controllers/pages/name_of_controller``<br>
-or
-on: ``src/app/rest/core/name_of-api/controllers/pages/name_of_controller`` then: <br>
-```
-const {req,controller}=args;
-const client=controller.client
-let response= await client?.auth?.auth().login({email,password}).val()
-```
 
 ## Preview
 <img alt="Alt text"  src="./screenshots/swyger-browser-lighthouse.png" title="a title" />
