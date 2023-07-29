@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Swyger SPA is used for Html Boilerplate to get started easily! ",
   "type": "module",
+  "module": "./src/index.js",
   "publishConfig": {
     "ignore": [
       ".git/",
