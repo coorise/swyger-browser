@@ -1,0 +1,2 @@
+var o=Object.defineProperty;var d=(r,e,a)=>e in r?o(r,e,{enumerable:!0,configurable:!0,writable:!0,value:a}):r[e]=a;var s=(r,e,a)=>(d(r,typeof e!="symbol"?e+"":e,a),a);class i{constructor(){s(this,"id","");s(this,"email","");s(this,"username","");s(this,"password","");s(this,"verifiedEmail","");s(this,"forgotpassword","");s(this,"resetpassword","")}}export{i as default};
+//# sourceMappingURL=auth.model.js.map

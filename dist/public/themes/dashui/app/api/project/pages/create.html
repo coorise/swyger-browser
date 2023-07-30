@@ -1,0 +1,386 @@
+<link rel="stylesheet" href="assets/css/navbar.css">
+<link rel="stylesheet" href="assets/wizard/css/bd-wizard.css">
+<link rel="stylesheet" :href="envDir+'/resources/assets/scss/confetti-1.scss'">
+<header class="sticky-top">
+  <div class="nav-wrapper">
+    <div class="logo-container mt-4">
+      <a href="/">
+        <h2 class="logo"><b>Agglomy</b></h2>
+      </a>
+    </div>
+    <nav>
+      <input class="hidden" type="checkbox" id="menuToggle">
+      <label class="menu-btn" for="menuToggle">
+        <div class="menu"></div>
+        <div class="menu"></div>
+        <div class="menu"></div>
+      </label>
+      <div class="nav-container">
+        <ul class="nav-tabs">
+          <li class="nav-tab">Home</li>
+          <li class="nav-tab">Projects</li>
+          <li class="nav-tab">FAQ</li>
+          <li class="nav-tab">Setting</li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+<div v-if="congratulation">
+  <div class="wrapper">
+    <div>
+      <div class="confetti-149"></div>
+      <div class="confetti-148"></div>
+      <div class="confetti-147"></div>
+      <div class="confetti-146"></div>
+      <div class="confetti-145"></div>
+      <div class="confetti-144"></div>
+      <div class="confetti-143"></div>
+      <div class="confetti-142"></div>
+      <div class="confetti-141"></div>
+      <div class="confetti-140"></div>
+      <div class="confetti-139"></div>
+      <div class="confetti-138"></div>
+      <div class="confetti-137"></div>
+      <div class="confetti-136"></div>
+      <div class="confetti-135"></div>
+      <div class="confetti-134"></div>
+      <div class="confetti-133"></div>
+      <div class="confetti-132"></div>
+      <div class="confetti-131"></div>
+      <div class="confetti-130"></div>
+      <div class="confetti-129"></div>
+      <div class="confetti-128"></div>
+      <div class="confetti-127"></div>
+      <div class="confetti-126"></div>
+      <div class="confetti-125"></div>
+      <div class="confetti-124"></div>
+      <div class="confetti-123"></div>
+      <div class="confetti-122"></div>
+      <div class="confetti-121"></div>
+      <div class="confetti-120"></div>
+      <div class="confetti-119"></div>
+      <div class="confetti-118"></div>
+      <div class="confetti-117"></div>
+      <div class="confetti-116"></div>
+      <div class="confetti-115"></div>
+      <div class="confetti-114"></div>
+      <div class="confetti-113"></div>
+      <div class="confetti-112"></div>
+      <div class="confetti-111"></div>
+      <div class="confetti-110"></div>
+      <div class="confetti-109"></div>
+      <div class="confetti-108"></div>
+      <div class="confetti-107"></div>
+      <div class="confetti-106"></div>
+      <div class="confetti-105"></div>
+      <div class="confetti-104"></div>
+      <div class="confetti-103"></div>
+      <div class="confetti-102"></div>
+      <div class="confetti-101"></div>
+      <div class="confetti-100"></div>
+      <div class="confetti-99"></div>
+      <div class="confetti-98"></div>
+      <div class="confetti-97"></div>
+      <div class="confetti-96"></div>
+      <div class="confetti-95"></div>
+      <div class="confetti-94"></div>
+      <div class="confetti-93"></div>
+      <div class="confetti-92"></div>
+      <div class="confetti-91"></div>
+      <div class="confetti-90"></div>
+      <div class="confetti-89"></div>
+      <div class="confetti-88"></div>
+      <div class="confetti-87"></div>
+      <div class="confetti-86"></div>
+      <div class="confetti-85"></div>
+      <div class="confetti-84"></div>
+      <div class="confetti-83"></div>
+      <div class="confetti-82"></div>
+      <div class="confetti-81"></div>
+      <div class="confetti-80"></div>
+      <div class="confetti-79"></div>
+      <div class="confetti-78"></div>
+      <div class="confetti-77"></div>
+      <div class="confetti-76"></div>
+      <div class="confetti-75"></div>
+      <div class="confetti-74"></div>
+      <div class="confetti-73"></div>
+      <div class="confetti-72"></div>
+      <div class="confetti-71"></div>
+      <div class="confetti-70"></div>
+      <div class="confetti-69"></div>
+      <div class="confetti-68"></div>
+      <div class="confetti-67"></div>
+      <div class="confetti-66"></div>
+      <div class="confetti-65"></div>
+      <div class="confetti-64"></div>
+      <div class="confetti-63"></div>
+      <div class="confetti-62"></div>
+      <div class="confetti-61"></div>
+      <div class="confetti-60"></div>
+      <div class="confetti-59"></div>
+      <div class="confetti-58"></div>
+      <div class="confetti-57"></div>
+      <div class="confetti-56"></div>
+      <div class="confetti-55"></div>
+      <div class="confetti-54"></div>
+      <div class="confetti-53"></div>
+      <div class="confetti-52"></div>
+      <div class="confetti-51"></div>
+      <div class="confetti-50"></div>
+      <div class="confetti-49"></div>
+      <div class="confetti-48"></div>
+      <div class="confetti-47"></div>
+      <div class="confetti-46"></div>
+      <div class="confetti-45"></div>
+      <div class="confetti-44"></div>
+      <div class="confetti-43"></div>
+      <div class="confetti-42"></div>
+      <div class="confetti-41"></div>
+      <div class="confetti-40"></div>
+      <div class="confetti-39"></div>
+      <div class="confetti-38"></div>
+      <div class="confetti-37"></div>
+      <div class="confetti-36"></div>
+      <div class="confetti-35"></div>
+      <div class="confetti-34"></div>
+      <div class="confetti-33"></div>
+      <div class="confetti-32"></div>
+      <div class="confetti-31"></div>
+      <div class="confetti-30"></div>
+      <div class="confetti-29"></div>
+      <div class="confetti-28"></div>
+      <div class="confetti-27"></div>
+      <div class="confetti-26"></div>
+      <div class="confetti-25"></div>
+      <div class="confetti-24"></div>
+      <div class="confetti-23"></div>
+      <div class="confetti-22"></div>
+      <div class="confetti-21"></div>
+      <div class="confetti-20"></div>
+      <div class="confetti-19"></div>
+      <div class="confetti-18"></div>
+      <div class="confetti-17"></div>
+      <div class="confetti-16"></div>
+      <div class="confetti-15"></div>
+      <div class="confetti-14"></div>
+      <div class="confetti-13"></div>
+      <div class="confetti-12"></div>
+      <div class="confetti-11"></div>
+      <div class="confetti-10"></div>
+      <div class="confetti-9"></div>
+      <div class="confetti-8"></div>
+      <div class="confetti-7"></div>
+      <div class="confetti-6"></div>
+      <div class="confetti-5"></div>
+      <div class="confetti-4"></div>
+      <div class="confetti-3"></div>
+      <div class="confetti-2"></div>
+      <div class="confetti-1"></div>
+      <div class="confetti-0"></div>
+    </div>
+    <main class="d-flex justify-content-center align-items-center">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <!-- Center alignment -->
+        <div class="card text-center">
+          <div class="card-header">
+            <b>Aminuty</b>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <div class="d-flex flex-row justify-content-around align-items-center">
+              <a href="#" class="btn btn-primary">Home</a>
+              <a href="/projects/jhjhhjhjh" class="btn btn-primary">Enter</a>
+              <a href="#" class="btn btn-primary">Share</a>
+            </div>
+          </div>
+          <div class="card-footer text-muted">
+            Created just Now!
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <div @click="makeNewProject()" class="btn btn-success">Create a New Project</div>
+        </div>
+      </div>
+      <div class="col-3"></div>
+    </main>
+  </div>
+</div>
+<div v-if="!congratulation">
+  <main class="d-flex justify-content-center align-items-center">
+    <div  class="container">
+      <div id="wizard" role="application" class="wizard clearfix vertical">
+        <div class="steps clearfix">
+          <ul role="tablist">
+            <!-- class="first done" aria-selected="false"-->
+            <li @click="currentStep(0)" role="tab" :class="{current:activeStep===0?true:false,done:activeSteps>=0?true:false}" class="first" :aria-disabled="activeSteps>=0?false:true" :aria-selected="activeSteps>=0?true:false">
+              <a id="wizard-t-0"  aria-controls="wizard-p-0">
+                <span class="current-info audible">current step: </span>
+                <span class="number">1</span>
+              </a>
+            </li>
+            <!-- class="current" aria-disabled="false" aria-selected="true"-->
+            <!-- class="done" aria-selected="false" -->
+            <li @click="currentStep(1)" role="tab" :class="{current:activeStep===1?true:false,done:(activeSteps>=1)?true:false,disabled:(activeSteps>=2)?true:false}" class="" :aria-disabled="activeSteps>=1?false:true" :aria-selected="activeSteps>=1?true:false">
+              <a id="wizard-t-1"  aria-controls="wizard-p-1">
+                <span class="number">2</span>
+              </a>
+            </li>
+            <!-- class="done" -->
+            <li @click="currentStep(2)" role="tab" :class="{current:activeStep===2?true:false,done:activeSteps>=2?true:false,disabled:(activeSteps>=3)?true:false}" class="" :aria-disabled="activeSteps>=2?false:true" :aria-selected="activeSteps>=2?true:false">
+              <a id="wizard-t-2" aria-controls="wizard-p-2">
+                <span class="number">3</span></a>
+            </li>
+            <!-- class="last current" aria-disabled="false" aria-selected="true"-->
+            <li @click="currentStep(3)" role="tab" :class="{current:activeStep===3?true:false,done:activeSteps>=3?true:false,disabled:(activeSteps>=4)?true:false}" class=" last" :aria-disabled="activeSteps>=3?false:true" :aria-selected="activeSteps>=3?true:false">
+              <a id="wizard-t-3"  aria-controls="wizard-p-3">
+                <span class="number">4</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="content clearfix">
+          <div :class="{'d-none':activeStep===0?false:true}">
+            <h3 id="wizard-h-0" tabindex="-1" class="title current">Step 1 Title</h3>
+            <section id="wizard-p-0" role="tabpanel" aria-labelledby="wizard-h-0" class="body current" aria-hidden="false">
+              <h5 class="bd-wizard-step-title">Step 1</h5>
+              <h2 class="section-heading">Select business type </h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+              <div class="purpose-radios-wrapper">
+                <div class="purpose-radio">
+                  <input type="radio" name="purpose" id="branding" class="purpose-radio-input" value="Branding" checked="">
+                  <label for="branding" class="purpose-radio-label">
+                       <span class="label-icon">
+                         <img src="assets/wizard/images/icon_branding.svg" alt="branding" class="label-icon-default">
+                         <img src="assets/wizard/images/icon_branding_green.svg" alt="branding" class="label-icon-active">
+                       </span>
+                    <span class="label-text">Branding</span>
+                  </label>
+                </div>
+                <div class="purpose-radio">
+                  <input type="radio" name="purpose" id="mobile-design" class="purpose-radio-input" value="Moile Design">
+                  <label for="mobile-design" class="purpose-radio-label">
+                        <span class="label-icon">
+                          <img src="assets/wizard/images/icon_mobile_design.svg" alt="branding" class="label-icon-default">
+                          <img src="assets/wizard/images/icon_mobile_design_green.svg" alt="branding" class="label-icon-active">
+                        </span>
+                    <span class="label-text">Moile Design</span>
+                  </label>
+                </div>
+                <div class="purpose-radio">
+                  <input type="radio" name="purpose" id="web-design" class="purpose-radio-input" value="Web Design">
+                  <label for="web-design" class="purpose-radio-label">
+                          <span class="label-icon">
+                            <img src="assets/wizard/images/icon_web_design.svg" alt="branding" class="label-icon-default">
+                            <img src="assets/wizard/images/icon_web_design_green.svg" alt="branding" class="label-icon-active">
+                          </span>
+                    <span class="label-text">Web Design</span>
+                  </label>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div :class="{'d-none':activeStep===1?false:true}">
+            <h3 id="wizard-h-1" tabindex="-1" class="title">Step 2 Title</h3>
+            <section id="wizard-p-1" role="tabpanel" aria-labelledby="wizard-h-1" class="body" aria-hidden="true" >
+              <h5 class="bd-wizard-step-title">Step 2</h5>
+              <h2 class="section-heading">Enter the Project Details</h2>
+              <div class="form-group">
+                <label for="firstName" class="sr-only">Project Name</label>
+                <input type="text" name="firstName" id="firstName" class="form-control" placeholder="First Name">
+              </div>
+              <div class="form-group">
+                <label for="lastName" class="sr-only">#Link Name</label>
+                <input type="text" name="lastName" id="lastName" class="form-control" placeholder="Last Name">
+              </div>
+              <div class="form-group">
+                <label for="phoneNumber" class="sr-only">Description</label>
+                <input type="text" name="phoneNumber" id="phoneNumber" class="form-control" placeholder="Phone Number">
+              </div>
+              <div class="form-group">
+                <label for="emailAddress" class="sr-only">Tags</label>
+                <input type="email" name="emailAddress" id="emailAddress" class="form-control" placeholder="Email Address">
+              </div>
+            </section>
+          </div>
+          <div :class="{'d-none':activeStep===2?false:true}">
+            <h3 id="wizard-h-2" tabindex="-1" class="title">Step 3 Title</h3>
+            <section id="wizard-p-2" role="tabpanel" aria-labelledby="wizard-h-2" class="body" aria-hidden="true" >
+              <h5 class="bd-wizard-step-title">Step 3</h5>
+              <h2 class="section-heading">Select Your Storage </h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+              <div data-bs-toggle="modal" data-bs-target="#discordModalLong" class="purpose-radios-wrapper">
+                <div class="purpose-radio">
+                  <input type="radio" name="purpose" id="branding" class="purpose-radio-input" value="Branding" checked="">
+                  <label for="branding" class="purpose-radio-label">
+                       <span class="label-icon">
+                         <img src="assets/wizard/images/icon_branding.svg" alt="branding" class="label-icon-default">
+                         <img src="assets/wizard/images/icon_branding_green.svg" alt="branding" class="label-icon-active">
+                       </span>
+                    <span class="label-text">Discord</span>
+                  </label>
+                </div>
+                <div class="purpose-radio">
+                  <input type="radio" name="purpose" id="mobile-design" class="purpose-radio-input" value="Moile Design">
+                  <label for="mobile-design" class="purpose-radio-label">
+                        <span class="label-icon">
+                          <img src="assets/wizard/images/icon_mobile_design.svg" alt="branding" class="label-icon-default">
+                          <img src="assets/wizard/images/icon_mobile_design_green.svg" alt="branding" class="label-icon-active">
+                        </span>
+                    <span class="label-text">AWS</span>
+                  </label>
+                </div>
+                <div class="purpose-radio">
+                  <input type="radio" name="purpose" id="web-design" class="purpose-radio-input" value="Web Design">
+                  <label for="web-design" class="purpose-radio-label">
+                          <span class="label-icon">
+                            <img src="assets/wizard/images/icon_web_design.svg" alt="branding" class="label-icon-default">
+                            <img src="assets/wizard/images/icon_web_design_green.svg" alt="branding" class="label-icon-active">
+                          </span>
+                    <span class="label-text">Goodgle</span>
+                  </label>
+                </div>
+                <div class="form-group mt-2">
+                  <label for="firstName" class="sr-only">Preview Size (in gb)</label>
+                  <input type="text" name="sizeStorage" id="sizeStorage" class="form-control" placeholder="500 gb">
+                </div>
+              </div>
+            </section>
+          </div>
+          <div :class="{'d-none':activeStep===3?false:true}">
+            <h3 id="wizard-h-3" tabindex="-1" class="title">Step 4 Title</h3>
+            <section id="wizard-p-3" role="tabpanel" aria-labelledby="wizard-h-3" class="body" aria-hidden="true" >
+              <h5 class="bd-wizard-step-title">Step 4</h5>
+              <h2 class="section-heading mb-5">Review your Details and Submit</h2>
+              <h6 class="font-weight-bold">Select business type</h6>
+              <p class="mb-4" id="business-type">Branding</p>
+              <h6 class="font-weight-bold">Enter your Account Details</h6>
+              <p class="mb-4"><span id="enteredFirstName">Cha</span> <span id="enteredLastName">Ji-Hun C</span> <br>
+                Phone: <span id="enteredPhoneNumber">+230-582-6609</span> <br>
+                Email: <span id="enteredEmailAddress">willms_abby@gmail.com</span></p>
+
+            </section>
+          </div>
+        </div>
+        <div class="actions clearfix">
+          <ul role="menu" aria-label="Pagination">
+            <li @click="backStep()" :class="{'d-none':activeSteps>0?false:true}" id="previous"  aria-disabled="true">
+              <a  role="menuitem">Previous</a>
+            </li>
+            <li @click="nextStep()" :class="{'d-none':(activeStep==3&&activeSteps>=3)?true:false}"  id="next" aria-hidden="false" aria-disabled="false" class="">
+              <a  role="menuitem">Next</a>
+            </li>
+            <li @click="makeCongrat()" :class="{'d-none':(activeStep==3&&activeSteps>=3)?false:true}" id="finish" aria-hidden="true"  class="">
+              <a  role="menuitem">Finish</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+<script src="assets/wizard/js/jquery.steps.min.js"></script>
+

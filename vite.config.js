@@ -20,7 +20,7 @@ export default defineConfig({
   server:{
     host: 'localhost',
     //https: '', visit the doc config of vite
-    port: 3004,
+    port: 3003,
     open: false, //allow to open new window on your browser
     //cors:'',
     //origin:'',

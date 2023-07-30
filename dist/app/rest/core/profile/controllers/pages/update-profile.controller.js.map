@@ -1,0 +1,1 @@
+{"version":3,"file":"update-profile.controller.js","sources":["../../../../../../../src/app/rest/core/profile/controllers/pages/update-profile.controller.js"],"sourcesContent":["const UpdateProfileController=async ()=>{\r\n\r\n}\r\nexport default UpdateProfileController\r\n"],"names":["UpdateProfileController","__async"],"mappings":"6MAAK,MAACA,EAAwB,IAAUC,EAAA,wBAExC"}

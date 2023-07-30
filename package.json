@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Swyger SPA is used for Html Boilerplate to get started easily! ",
   "type": "module",
-  "module": "./src/index.js",
+  "main": "./src/index.js",
   "publishConfig": {
     "ignore": [
       ".git/",
@@ -18,7 +18,8 @@
     "dev": "vite",
     "build": "vite build --minify && node  ./replace-src.js",
     "build:dev": "vite build && node  ./replace-src.js",
-    "start": "vite preview"
+    "start": "npm run build && vite preview",
+    "start:dev": "npm run build:dev && vite preview"
   },
   "keywords": [
     "Client",
@@ -33,6 +34,9 @@
   ],
   "author": "Agglomy",
   "license": "MIT",
+  "contributors": [
+    "Ivan Joel Sobgui"
+  ],
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.1",
     "glob-all": "^3.3.1",
@@ -42,7 +46,7 @@
     "vite-plugin-compression": "^0.5.1"
   },
   "dependencies": {
-    "@swyger/client": "latest",
+    "@swyger/client": "^0.1.7",
     "head-manager": "^1.0.2",
     "jquery": "^3.6.1",
     "jwt-decode": "^3.1.2",

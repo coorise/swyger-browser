@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../../../src/app/rest/api/index.js"],"sourcesContent":["import HomeModule from \"./home/index.js\";\r\n\r\nlet ApiModule = {\r\n  ...HomeModule,\r\n}\r\n\r\nexport default ApiModule\r\n"],"names":["ApiModule","__spreadValues","HomeModule"],"mappings":"uhkBAEG,IAACA,GAAYC,EAAA,GACXC"}
