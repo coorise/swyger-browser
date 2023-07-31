@@ -62,10 +62,10 @@ const LoginController = async (args)=>{
             //result?.data //for user info
             //result?.refreshToken //for refresh token
             //result?.token //for  token
-            req.go()
+            router.go()
           } else if(!response?.error &&!response?.data?.token){
             this.clientError= 'We noticed you are already logged in from another device.For security reason, we have sent a verification code to: '+this.user?.email
-            req.go('/auth/verify-token-code?email='+this.user.email+'&message='+this.clientError)
+            router.go('/auth/verify-token-code?email='+this.user.email+'&message='+this.clientError)
           }
 
 

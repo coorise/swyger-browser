@@ -67,7 +67,7 @@ const SetNewPasswordController = async (args)=>{
             //result?.data //for user info
             //result?.refreshToken //for refresh token
             //result?.token //for  token
-            req.go()
+            router.go('/')
           } else if(!response?.data?.token){
             this.clientError= 'We noticed you are already logged in from another device.For security reason, we have sent a verification code to: '+this.user?.email
           }

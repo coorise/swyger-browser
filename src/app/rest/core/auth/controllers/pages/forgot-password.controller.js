@@ -73,7 +73,7 @@ const ForgotPasswordController = async (args) =>{
                   console.log(this.res.res)
                   let email=this.res.res.user.email
                   localStorage.setItem('email',email);
-                  //Route('auth','reset-password')
+                  //router.go('/')
               }
 
           }

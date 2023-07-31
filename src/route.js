@@ -34,6 +34,10 @@ let adminRouter = new Router(routes,
         beforeEachEnter: function (req) {
           //you can set/get a variable like in express js
           // req.your_variable
+          req.$router.go=(path='/')=> {
+            location.href=path
+          }
+
           if(!req?.client && typeof req.client !='object')
           req.client=client
         },

@@ -69,7 +69,7 @@ const RegisterController = async (args)=>{
             //result?.data //for user info
             //result?.refreshToken //for refresh token
             //result?.token //for  token
-            req.go()
+            router.go('/')
           }
         }
       }catch (e) {
