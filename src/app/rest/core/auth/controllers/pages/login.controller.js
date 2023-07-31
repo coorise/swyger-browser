@@ -12,7 +12,7 @@ const LoginController = async (args)=>{
   //router.mount('path',function)
   //router.off('path')
   //router.reload()
-  const client=controller.client
+  const client=req.client
 
   let meta={
     title:"Login | Agglomy !",

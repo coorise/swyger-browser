@@ -62,7 +62,7 @@ or
 on: ``src/app/rest/core/name_of-api/controllers/pages/name_of_controller`` : <br>
 ```
 const {req,controller}=args;
-const client=controller.client
+const client=req.client
 let response= await client?.auth?.auth().login({email,password}).val()
 ```
 
