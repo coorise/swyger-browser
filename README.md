@@ -116,7 +116,7 @@ There is two methods for build:
 
 For production environment:
 
-``npm run build && npm run start
+``npm run start
 ``
 
 ## `Attention!`
