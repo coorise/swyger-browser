@@ -36,7 +36,7 @@ const IndexController = async (args) =>{
     //so on your parent template, use  eg: <index/>
     index:'pages/index.html' // should be in /static/public/themes/**/pages/index.html
   }
-  let database=client?.database()
+  let database=client?.database.database()
   database.ready(async ()=>{
     database.ref('/path/to/json')?.get(
       {
